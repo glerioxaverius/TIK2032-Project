@@ -1,3 +1,9 @@
+:root {
+  --primary: #12372a;
+  --second: #436850;
+  --third: #adbc9f;
+}
+
 body {
   background-color: #fbfada;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -17,11 +23,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-.text h3 {
-  color: #12372a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#animated-text {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+#animated-text.visible {
+  transform: translateY(0);
+  opacity: 1;
 }
 .text p {
   color: #436850;
