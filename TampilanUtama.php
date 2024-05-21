@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tugas HTML</title>
-    <link rel="stylesheet" href="Style.css" />
-  </head>
-  <body>
-    <!-- Script -->
-    <script src="script.js"></script>
-
-    <!-- Code -->
-    <section>
+<section>
       <div class="header">
         <h1>SELAMAT DATANG!</h1>
         <h3>di Halaman Saya</h3>
@@ -35,5 +22,3 @@
         <a href="Kontak.html"><button class="hubungi">Hubungi</button></a>
       </div>
     </section>
-  </body>
-</html>
