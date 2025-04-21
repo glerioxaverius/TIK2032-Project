@@ -128,10 +128,12 @@ footer {
 }
 
 .artikel article {
+  background-color: #defcff;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  border-style: solid;
 }
 
 article button a {
@@ -145,6 +147,7 @@ article button {
   height: 50px;
   border: none;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   box-shadow: 3px 2px rgba(0, 0, 0, 0.05);
   transition-duration: 1s;
 }
@@ -153,4 +156,19 @@ article button:hover {
   background-color: #10599a;
   color: #b5fccd;
   transition-duration: 1s;
+}
+
+section form {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section form input {
+  border-color: #10599a;
+  width: 200px;
+  height: 30px;
+  margin: auto;
 }
